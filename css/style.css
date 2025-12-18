@@ -5,8 +5,13 @@
   font-family: "Noto Sans JP";
 }
 
+body {
+  background-color: #fff7ee;
+  color: #434343;
+}
+
 h1 {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 a,
@@ -29,6 +34,7 @@ header .site-title {
 }
 
 header img {
+  object-fit: cover;
   height: 55px;
   width: auto;
 }
@@ -58,4 +64,84 @@ header .global-nav ul li a {
 header .global-nav ul li a:hover {
   color: #434343;
   text-decoration: underline;
+}
+
+/* footer */
+footer {
+  background-color: #00a24f;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 100px 0 0 0;
+}
+
+footer a {
+  color: #FFF7EE;
+  text-decoration: none;
+}
+
+footer .footer-info {
+  width: 60%;
+  margin: auto 0 4% 0;
+}
+
+footer .call-fax-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .call-display, .fax-display, .download-button {
+  background-color: #FFF7EE;
+  width: 45%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: auto;
+  margin: 3% 0;
+  box-shadow: 0px 4px 0px 0px #008742;
+}
+
+footer .tel-icon, .fax-icon, .download-icon {
+  object-fit: cover;
+  height: 50px;
+  width: auto;
+  margin: auto 0;
+
+}
+
+footer .tel-number, .fax-number {
+  font-size: 36px;
+  color: #434343;
+  font-weight: normal;
+}
+
+footer .tel-hours, .fax-hours {
+  font-size: 20px;
+  color: #434343;
+  font-weight: normal;
+}
+
+footer .download-text {
+  font-size: 25px;
+  color: #434343;
+  font-weight: normal;
+  margin: auto 0;
+}
+
+footer .page-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .map {
+  margin: 2% 0;
+}
+
+footer .page-link a:hover {
+  color: #434343;
+  text-decoration: underline;
+}
+
+footer .download-button:hover {
+  transform: translateY(4px);
+  box-shadow: none;
 }
