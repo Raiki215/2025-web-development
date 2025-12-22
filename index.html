@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <title>Document</title>
 </head>
 
@@ -26,6 +28,91 @@
       </ul>
     </nav>
   </header>
+  <main>
+    <img src="img/top.png" alt="トップの写真" class="top-img">
+    <section>
+      <p class="trouble-title">以下のトラブルでお困りではないですか？</p>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a class="card" href="./works.html">
+              <img src="img/after.jpg" alt="施工事例1" class="trouble-img">
+              <p class="trouble-text">水漏れ工事</p>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="card" href="./works.html">
+              <img src="img/before.jpg" alt="施工事例2" class="trouble-img">
+              <p class="trouble-text">凍結工事</p>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="card" href="./works.html">
+              <img src="img/after.jpg" alt="施工事例3" class="trouble-img">
+              <p class="trouble-text">給水器工事</p>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="card" href="./works.html">
+              <img src="img/before.jpg" alt="施工事例2" class="trouble-img">
+              <p class="trouble-text">蛇口の交換</p>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="card" href="./works.html">
+              <img src="img/after.jpg" alt="施工事例3" class="trouble-img">
+              <p class="trouble-text">トイレの新設</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <a href="./contact.html" class="contact-button">お悩みの方はこちら</a>
+    </section>
+
+    <section>
+      <p>私たちが選ばれる理由</p>
+      <img src="img/friend-icon.png" alt="地域密着のアイコン">
+      <p>地域密着</p>
+      <p>親切に寄り添います</p>
+      <img src="img/run-icon.png" alt="迅速対応のアイコン">
+      <p>迅速対応</p>
+      <p>すぐに駆け付けます</p>
+      <img src="img/skill-icon.png" alt="洗練した技術のアイコン">
+      <p>洗練した技術</p>
+      <p>水回りのスペシャリストがそろっています</p>
+    </section>
+
+    <section>
+      <p>“緊急対応”が必要な方は<br>
+        今すぐお電話ください！</p>
+      <p>トラブルの発生個所と症状をお伝えください。</p>
+      <img src="img/phone.png" alt="携帯電話番号のアイコン">
+      <p>019-600-0000</p>
+      <p>営業時間 8:00～17:00</p>
+      <p>株式会社早池峰設備工業</p>
+      <a href="">お問い合わせ</a>
+    </section>
+
+    <section>
+      <p>事業内容</p>
+      <p>土木</p>
+      <p>水道</p>
+      <p>安心安全で暮らしやすい街をつくるため給排水、衛生設備工事及び、冷房設備工事を行っています。</p>
+      <a href="">詳しく見る</a>
+    </section>
+
+    <section>
+      <p>採用情報</p>
+      <p>この町の未来をあなたの手で</p>
+      <p>共に街づくりをする仲間を募集しています</p>
+      <a href="">採用情報ページへ</a>
+    </section>
+
+
+  </main>
   <footer>
     <div class="footer-info">
       <div class="call-fax-display">
@@ -61,6 +148,8 @@
       width="353" height="293" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="js/carousel.js"></script>
 </body>
 
 </html>
