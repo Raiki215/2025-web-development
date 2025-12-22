@@ -8,6 +8,7 @@
 body {
   background-color: #fff7ee;
   color: #434343;
+  font-weight: nomal;
 }
 
 h1 {
@@ -75,7 +76,7 @@ footer {
 }
 
 footer a {
-  color: #FFF7EE;
+  color: #fff7ee;
   text-decoration: none;
 }
 
@@ -89,8 +90,10 @@ footer .call-fax-display {
   justify-content: space-between;
 }
 
-footer .call-display, .fax-display, .download-button {
-  background-color: #FFF7EE;
+footer .call-display,
+.fax-display,
+.download-button {
+  background-color: #fff7ee;
   width: 45%;
   border-radius: 50px;
   display: flex;
@@ -100,21 +103,24 @@ footer .call-display, .fax-display, .download-button {
   box-shadow: 0px 4px 0px 0px #008742;
 }
 
-footer .tel-icon, .fax-icon, .download-icon {
+footer .tel-icon,
+.fax-icon,
+.download-icon {
   object-fit: cover;
   height: 50px;
   width: auto;
   margin: auto 0;
-
 }
 
-footer .tel-number, .fax-number {
+footer .tel-number,
+.fax-number {
   font-size: 36px;
   color: #434343;
   font-weight: normal;
 }
 
-footer .tel-hours, .fax-hours {
+footer .tel-hours,
+.fax-hours {
   font-size: 20px;
   color: #434343;
   font-weight: normal;
