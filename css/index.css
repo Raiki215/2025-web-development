@@ -3,7 +3,7 @@ main .top-img {
   object-fit: cover;
 }
 
-main .trouble-title {
+main .trouble-title, main .strengths-title {
   font-size: 40px;
   font-weight: medium;
   margin-top: 2%;
@@ -72,4 +72,39 @@ main .contact-button {
 main .contact-button:hover {
   background-color: #00a24f;
   color: #FFF7EE;
+}
+
+main .strengths-content {
+  width: 80%;
+  background-color: #FCFCFC;
+  display: flex;
+  justify-content: space-around;
+  margin: 2% auto;
+  padding: 2% 0;
+}
+
+main .strengths-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+main .strengths-item-title {
+  color: #00a24f;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+main .strengths-item {
+  width: 24%;
+  text-align: center;
+  background-color: #FEEFDD;
+  border: 1px solid #00a24f;
+}
+
+main .friend-icon, main .run-icon, main .skill-icon {
+  margin-top: 8%;
+}
+
+main .strengths-text {
+  margin: 2% 0 4% 0;
 }
