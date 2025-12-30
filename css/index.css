@@ -3,7 +3,7 @@ main .top-img {
   object-fit: cover;
 }
 
-main .trouble-title, main .strengths-title {
+main .trouble-title, main .strengths-title, main .business-title {
   font-size: 40px;
   font-weight: medium;
   margin-top: 2%;
@@ -107,4 +107,105 @@ main .friend-icon, main .run-icon, main .skill-icon {
 
 main .strengths-text {
   margin: 2% 0 4% 0;
+}
+
+
+main .business-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 2% auto;
+  min-height: 400px;
+  position: relative;
+}
+
+main .business-text-area, main .business-images {
+  position: relative;
+}
+
+main .business-images {
+  object-fit: cover;
+  width: 40%;
+}
+
+main .business-text-area {
+  width: 50%;
+}
+
+main .public-works-title, main .water-title {
+  font-size: 36px;
+  margin: 2% 0;
+}
+
+main .public-works-title {
+  color: #00a24f;
+}
+
+main .water-title {
+  color: #DBE0C6;
+}
+
+main .tab-item {
+  margin: 2% 0;
+  transition: opacity 0.3s;
+}
+
+main .tab-border {
+  border-top: 2px solid #00a24f; /* 緑の線 */
+  width: 60%;
+}
+
+main .tab-title {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+main .description-container, .business-images {
+  position: relative;
+  min-height: 100px;
+}
+
+main .description-text, .business-images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+main .description-text {
+  margin: 2% 0;
+}
+
+main .item-public { opacity: 1; }
+main .item-water { opacity: 0.3; }
+main .water-text, main .water-img { opacity: 0; }
+
+main .public-works-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #00a24f;
+  border: 1px solid #00a24f;
+  margin: auto 0;
+}
+main .water-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #00a24f;
+  margin: auto 0;
+}
+
+main .business-button {
+  display: block;
+  width: 30%;
+  color: #00a24f;
+  border: 3px solid #00a24f;
+  border-radius: 16px;
+  padding: 2% 2%;
+  margin: 2% 0;
+  float: left;
+  text-align: center;
+  text-decoration: none;
 }

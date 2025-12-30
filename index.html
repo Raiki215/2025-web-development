@@ -109,11 +109,40 @@
     </section>
 
     <section>
-      <p>事業内容</p>
-      <p>土木</p>
-      <p>水道</p>
-      <p>安心安全で暮らしやすい街をつくるため給排水、衛生設備工事及び、冷房設備工事を行っています。</p>
-      <a href="">詳しく見る</a>
+      <p class="business-title">事業内容</p>
+      <div class="business-content">
+        <div class="business-text-area">
+
+          <div class="tab-container">
+            <div class="tab-item item-public">
+              <div class="tab-border"></div>
+              <div class="tab-title">
+                <p class="public-works-title">土木</p>
+                <div class="circle public-works-circle"></div>
+              </div>
+            </div>
+
+            <div class="tab-item item-water">
+              <div class="tab-border"></div>
+              <div class="tab-title">
+                <p class="water-title">水道</p>
+                <div class="circle water-circle"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="description-container">
+            <p class="description-text public-works-text">住環境・地球環境整備に努め社会に貢献してきたため、地域の皆様から信頼をいただいております。</p>
+            <p class="description-text water-text">安心安全で暮らしやすい街をつくるため給排水、衛生設備工事及び、冷房設備工事を行っています。</p>
+          </div>
+          <a href="./business.html" class="business-button">詳しく見る</a>
+        </div>
+
+        <div class="business-images">
+          <img src="img/public-works-business.jpg" alt="土木" class="public-works-img">
+          <img src="img/water-business.jpg" alt="水道" class="water-img">
+        </div>
+      </div>
     </section>
 
     <section>
@@ -161,7 +190,10 @@
       referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="js/carousel.js"></script>
+  <script src="js/scroll.js"></script>
 </body>
 
 </html>

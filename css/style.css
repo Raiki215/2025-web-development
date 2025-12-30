@@ -66,6 +66,65 @@ header .global-nav ul li a:hover {
   text-decoration: underline;
 }
 
+
+/* 電話番号 */
+main .alert-text {
+  color: #EE1C1C;
+  font-size: 40px;
+}
+
+main .invitation-text {
+  font-size: 36px;
+  text-align: center;
+  margin: 2% 0;
+}
+
+main .call-center {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FCFCFC;
+  border: 10px solid #00a24f;
+}
+
+main .call-title {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+main .call-item {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+main .phone-icon {
+  object-fit: cover;
+  height: 66px;
+  width: auto;
+  margin: auto 0;
+}
+
+main .call-number {
+  display: inline;
+  font-size: 64px;
+  font-weight: bold;
+  border-bottom: 2px solid #434343;
+}
+
+main .business-hours {
+  font-size: 32px;
+  text-align: center;
+  margin: 2% 0 0 0;
+}
+
+main .company-name {
+  font-size: 24px;
+  text-align: right;
+  margin: 0 2% 2% 0;
+}
+
+
 /* footer */
 footer {
   background-color: #00a24f;
