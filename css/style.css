@@ -66,6 +66,56 @@ header .global-nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* main */
+
+/*施工事例のスライド*/
+main .swiper {
+  width: 80%;
+  margin: 2% auto;
+}
+
+main .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+main .card {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+main .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+
+main .trouble-img {
+  object-fit: cover;
+  height: 170px;
+  width: auto;
+  display: block;
+  margin: 0;
+}
+
+main .swiper-button-prev, main .swiper-button-next {
+  color: #434343;
+}
+
+main .trouble-text {
+  font-size: 20px;
+  color: #FFF7EE;
+  background-color: #00a24f;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 2% 0;
+}
+
 
 /* 電話番号 */
 main .alert-text {

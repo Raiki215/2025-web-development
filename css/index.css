@@ -3,59 +3,13 @@ main .top-img {
   object-fit: cover;
 }
 
-main .trouble-title, main .strengths-title, main .business-title {
+main .trouble-title, main .strengths-title, main .business-title, main .recruit-title {
   font-size: 40px;
-  font-weight: medium;
-  margin-top: 2%;
+  font-weight: 500;
+  margin: 2% 0;
   text-align: center;
 }
 
-main .swiper {
-  width: 80%;
-  margin: 2% auto;
-}
-
-main .swiper-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0;
-}
-
-main .card {
-  display: block;
-  text-decoration: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-
-main .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  opacity: 1;
-}
-
-main .trouble-img {
-  object-fit: cover;
-  height: 170px;
-  width: auto;
-  display: block;
-  margin: 0;
-}
-
-main .swiper-button-prev, main .swiper-button-next {
-  color: #434343;
-}
-
-main .trouble-text {
-  font-size: 20px;
-  color: #FFF7EE;
-  background-color: #00a24f;
-  text-align: center;
-  width: 100%;
-  margin: 0;
-  padding: 2% 0;
-}
 
 main .contact-button {
   display: block;
@@ -74,6 +28,7 @@ main .contact-button:hover {
   color: #FFF7EE;
 }
 
+/*強みのCSS*/
 main .strengths-content {
   width: 80%;
   background-color: #FCFCFC;
@@ -81,11 +36,6 @@ main .strengths-content {
   justify-content: space-around;
   margin: 2% auto;
   padding: 2% 0;
-}
-
-main .strengths-title {
-  font-size: 40px;
-  font-weight: bold;
 }
 
 main .strengths-item-title {
@@ -109,18 +59,22 @@ main .strengths-text {
   margin: 2% 0 4% 0;
 }
 
-
+/*事業内容のCSS*/
 main .business-content {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 2% auto;
-  min-height: 400px;
-  position: relative;
+  min-height: 350px;
 }
 
 main .business-text-area, main .business-images {
   position: relative;
+}
+
+main .description-container {
+  position: relative;
+  min-height: 100px;
 }
 
 main .business-images {
@@ -159,11 +113,6 @@ main .tab-title {
   display: flex;
   justify-content: space-between;
   width: 60%;
-}
-
-main .description-container, .business-images {
-  position: relative;
-  min-height: 100px;
 }
 
 main .description-text, .business-images img {
@@ -208,4 +157,52 @@ main .business-button {
   float: left;
   text-align: center;
   text-decoration: none;
+}
+
+main .business-button:hover {
+  background-color: #00a24f;
+  color: #FFF7EE;
+}
+
+/*採用情報のCSS*/
+main .recruit-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border: 10px solid #00a24f;
+  margin: 2% auto;
+  padding: 2%;
+}
+
+main .recruit-img {
+  object-fit: cover;
+  height: 300px;
+  width: auto;
+}
+
+main .recruit-text {
+  display: flex;
+  flex-direction: column;
+}
+
+main .recruit-subtitle {
+  font-size: 36px;
+  margin-bottom: 4%;
+}
+
+main .recruit-button {
+  display: block;
+  width: 50%;
+  color: #00a24f;
+  border: 3px solid #00a24f;
+  border-radius: 16px;
+  padding: 2% 2%;
+  margin-top: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .recruit-button:hover {
+  background-color: #00a24f;
+  color: #FFF7EE;
 }
