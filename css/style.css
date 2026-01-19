@@ -67,6 +67,115 @@ header .global-nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* main */
+
+/*施工事例のスライド*/
+main .swiper {
+  width: 80%;
+  margin: 2% auto;
+}
+
+main .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+main .card {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+main .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+
+main .trouble-img {
+  object-fit: cover;
+  height: 170px;
+  width: auto;
+  display: block;
+  margin: 0;
+}
+
+main .swiper-button-prev, main .swiper-button-next {
+  color: #434343;
+}
+
+main .trouble-text {
+  font-size: 20px;
+  color: #FFF7EE;
+  background-color: #00a24f;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 2% 0;
+}
+
+
+/* 電話番号 */
+main .alert-text {
+  color: #EE1C1C;
+  font-size: 40px;
+}
+
+main .invitation-text {
+  font-size: 36px;
+  text-align: center;
+  margin: 2% 0;
+}
+
+main .call-center {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FCFCFC;
+  border: 10px solid #00a24f;
+}
+
+main .call-title {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+main .call-item {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+main .phone-icon {
+  object-fit: cover;
+  height: 66px;
+  width: auto;
+  margin: auto 0;
+}
+
+main .call-number {
+  display: inline;
+  font-size: 64px;
+  font-weight: bold;
+  border-bottom: 2px solid #434343;
+}
+
+main .business-hours {
+  font-size: 32px;
+  text-align: center;
+  margin: 2% 0 0 0;
+}
+
+main .company-name {
+  font-size: 24px;
+  text-align: right;
+  margin: 0 2% 2% 0;
+}
+
+
 /* footer */
 footer {
   background-color: #00a24f;

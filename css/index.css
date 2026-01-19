@@ -1,0 +1,208 @@
+main .top-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+main .trouble-title, main .strengths-title, main .business-title, main .recruit-title {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 2% 0;
+  text-align: center;
+}
+
+
+main .contact-button {
+  display: block;
+  width: 25%;
+  color: #00a24f;
+  border: 3px solid #00a24f;
+  border-radius: 16px;
+  padding: 1% 2%;
+  margin: 2% auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .contact-button:hover {
+  background-color: #00a24f;
+  color: #FFF7EE;
+}
+
+/*強みのCSS*/
+main .strengths-content {
+  width: 80%;
+  background-color: #FCFCFC;
+  display: flex;
+  justify-content: space-around;
+  margin: 2% auto;
+  padding: 2% 0;
+}
+
+main .strengths-item-title {
+  color: #00a24f;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+main .strengths-item {
+  width: 24%;
+  text-align: center;
+  background-color: #FEEFDD;
+  border: 1px solid #00a24f;
+}
+
+main .friend-icon, main .run-icon, main .skill-icon {
+  margin-top: 8%;
+}
+
+main .strengths-text {
+  margin: 2% 0 4% 0;
+}
+
+/*事業内容のCSS*/
+main .business-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 2% auto;
+  min-height: 350px;
+}
+
+main .business-text-area, main .business-images {
+  position: relative;
+}
+
+main .description-container {
+  position: relative;
+  min-height: 100px;
+}
+
+main .business-images {
+  object-fit: cover;
+  width: 40%;
+}
+
+main .business-text-area {
+  width: 50%;
+}
+
+main .public-works-title, main .water-title {
+  font-size: 36px;
+  margin: 2% 0;
+}
+
+main .public-works-title {
+  color: #00a24f;
+}
+
+main .water-title {
+  color: #DBE0C6;
+}
+
+main .tab-item {
+  margin: 2% 0;
+  transition: opacity 0.3s;
+}
+
+main .tab-border {
+  border-top: 2px solid #00a24f; /* 緑の線 */
+  width: 60%;
+}
+
+main .tab-title {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+main .description-text, .business-images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+main .description-text {
+  margin: 2% 0;
+}
+
+main .item-public { opacity: 1; }
+main .item-water { opacity: 0.3; }
+main .water-text, main .water-img { opacity: 0; }
+
+main .public-works-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #00a24f;
+  border: 1px solid #00a24f;
+  margin: auto 0;
+}
+main .water-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #00a24f;
+  margin: auto 0;
+}
+
+main .business-button {
+  display: block;
+  width: 30%;
+  color: #00a24f;
+  border: 3px solid #00a24f;
+  border-radius: 16px;
+  padding: 2% 2%;
+  margin: 2% 0;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .business-button:hover {
+  background-color: #00a24f;
+  color: #FFF7EE;
+}
+
+/*採用情報のCSS*/
+main .recruit-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border: 10px solid #00a24f;
+  margin: 2% auto;
+  padding: 2%;
+}
+
+main .recruit-img {
+  object-fit: cover;
+  height: 300px;
+  width: auto;
+}
+
+main .recruit-text {
+  display: flex;
+  flex-direction: column;
+}
+
+main .recruit-subtitle {
+  font-size: 36px;
+  margin-bottom: 4%;
+}
+
+main .recruit-button {
+  display: block;
+  width: 50%;
+  color: #00a24f;
+  border: 3px solid #00a24f;
+  border-radius: 16px;
+  padding: 2% 2%;
+  margin-top: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .recruit-button:hover {
+  background-color: #00a24f;
+  color: #FFF7EE;
+}
