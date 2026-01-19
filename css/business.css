@@ -1,0 +1,105 @@
+.business-content {
+  display: flex;
+  width: 65%;
+  gap: 15%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+main .business-section .business-title {
+  font-size: 40px;
+  text-align: center;
+  margin: 2% 0;
+}
+
+main .business-section .business-img {
+  object-fit: cover;
+  width: 75%;
+  height: auto;
+  padding: 10% 0 0 0;
+  display: block;
+  margin: 0 auto;
+}
+
+main .business-section .business-text {
+  margin: 0 auto;
+  width: 75%;
+}
+
+main .business-section .water-business, main .business-section .public-work-business {
+  width: 45%;
+  background-color: #FEEFDD;
+}
+
+main .business-section .business-subtitle {
+  font-size: 36px;
+  margin:  6% 0;
+  text-align: center;
+}
+
+main .business-section .business-description {
+  text-align: left;
+  margin: 8% 0;
+}
+
+main .strengths-section .strengths-title {
+  font-size: 36px;
+  text-align: center;
+  margin: 2% 0;
+}
+
+main .strengths-section .strengths-content {
+  width: 80%;
+  margin: 2% auto;
+  background-color: #FEEFDD;
+}
+
+main .strengths-section .strengths-img {
+  object-fit: cover;
+  width: 40%;
+  height: auto;
+  margin: 2% 0;
+}
+
+main .strengths-section .strengths-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+main .strengths-section .strengths-text-content {
+  width: 45%;
+  margin: auto 0;
+}
+
+main .strengths-section .strengths-subtitle {
+  font-size: 36px;
+  color: #00a24f;
+}
+
+main .strengths-section .strengths-text {
+  font-size: 20px;
+  width: 90%;
+}
+
+main .construction-example-title {
+  font-size: 40px;
+  text-align: center;
+  margin: 2% 0;
+}
+
+main .contact-button {
+  display: block;
+  width: 25%;
+  color: #00a24f;
+  border: 3px solid #00a24f;
+  border-radius: 16px;
+  padding: 1% 2%;
+  margin: 2% auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .contact-button:hover {
+  background-color: #00a24f;
+  color: #FFF7EE;
+}
