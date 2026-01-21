@@ -113,3 +113,104 @@ section {
 #work-last {
   border-bottom: none;
 }
+
+.phone {
+  width: auto;
+  height: 175px;
+}
+
+.contact-title {
+  font-size: 40px;
+  font-weight: medium;
+  padding: 5%;
+}
+
+.contact-title span {
+  color: #ee1c1c;
+  font-weight: bold;
+}
+
+.contact-subtitle {
+  font-weight: normal;
+}
+
+.contact-flow {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.flow-title {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.flow-title1 {
+  font-size: 40px;
+  font-weight: medium;
+  margin-bottom: 2%;
+}
+
+.flow-title2 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.flow-title2 span {
+  font-weight: bold;
+}
+
+.step1 {
+  display: flex;
+  background-color: #fcfcfc;
+  padding: 2%;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.step-text {
+  font-size: 28px;
+  margin: auto 2%;
+  width: 50%;
+}
+
+.step-text h2 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.step-text div {
+  border-bottom: 2px solid #0051ff;
+  border-bottom-style: dotted;
+}
+
+.step-text a {
+  text-decoration: none;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.arrow img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+main .contact-button {
+  display: block;
+  width: 25%;
+  color: #00a24f;
+  border: 3px solid #00a24f;
+  border-radius: 16px;
+  padding: 1% 2%;
+  margin: 2% auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .contact-button:hover {
+  background-color: #00a24f;
+  color: #fff7ee;
+}
