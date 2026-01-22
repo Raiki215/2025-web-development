@@ -1,0 +1,85 @@
+.philosophy-title {
+  font-size: 40px;
+  font-weight: medium;
+  text-align: center;
+  margin: 3% 0;
+}
+
+.philosophy-title h2 {
+  margin-top: 2%;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.philosophy-text {
+  margin: auto;
+  padding: 5% 8%;
+  width: 80%;
+  background-color: #fcfcfc;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.philosophy-text h2 {
+  font-size: 36px;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  background-color: #feefdd;
+  border-radius: 2px;
+}
+
+.company-overview h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 2%;
+}
+
+.company-table {
+  font-size: 20px;
+  margin: 3% 0 5% 0;
+  padding: 3%;
+}
+
+.table-row {
+  margin: auto;
+  display: flex;
+  border-bottom: #00a24f 2px solid;
+  padding-left: 5%;
+  width: 90%;
+  margin-top: 2%;
+}
+
+.table-header {
+  font-weight: 400;
+  color: #7e776e;
+  flex: 0 0 200px;
+  padding: 10px;
+}
+
+.table-data {
+  font-weight: 500;
+  flex: 1;
+  padding: 10px;
+  padding-left: 10%;
+}
+
+main .contact-button {
+  display: block;
+  width: 25%;
+  color: #00a24f;
+  border: 3px solid #00a24f;
+  border-radius: 16px;
+  padding: 1% 2%;
+  margin: 2% auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .contact-button:hover {
+  background-color: #00a24f;
+  color: #fff7ee;
+}
