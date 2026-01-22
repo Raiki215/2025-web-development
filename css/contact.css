@@ -6,7 +6,6 @@ main .contact-title {
 }
 
 main .form-title {
-  font-size: 36px;
   text-align: center;
   margin: 2% 0;
 }
@@ -15,8 +14,8 @@ main .contact-form {
   width: 80%;
   margin: 0 auto;
   background-color: #FEEFDD;
+  font-size: 20px;
 }
-
 
 main .radio-button {
   accent-color: #434343;
@@ -24,13 +23,57 @@ main .radio-button {
   block-size: 30px;
 }
 
-main input::placeholder {
+main input::placeholder, main textarea::placeholder {
   color: #A3D29E;
   font-size: 20px;
+}
+
+main input[type="text"], main input[type="email"], main textarea {
+  border: none;
 }
 
 
 main .required {
   color: #FF573C;
   font-size: 12px;
+}
+
+main .inquiry-form {
+  display: flex;
+  gap: 20%;
+}
+
+main .radio-form-list {
+  display: flex;
+  gap: 10%;
+  width: 50%;
+}
+
+main .radio-form {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+  width: 70%;
+}
+
+main .name-form, main .phone-form, main .email-form, main .inquiry-content-form {
+  width: 90%;
+  margin: 2% auto;
+  display: flex;
+  gap: 20%;
+}
+
+main .inquiry-type-label, main .name-label, main .phone-label, main .email-label, main .inquiry-content-label {
+  width: 25%;
+  margin: auto 0;
+}
+
+main .name-input, main .phone-input, main .email-input {
+  width: 60%;
+  height: 50px;
+}
+
+main .inquiry-content-input {
+  height: 100px;
+  width: 60%;
 }
