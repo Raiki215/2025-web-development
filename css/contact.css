@@ -8,6 +8,7 @@ main .contact-title {
 main .form-title {
   text-align: center;
   margin: 2% 0;
+  font-size: 36px;
 }
 
 main .contact-form {
@@ -15,6 +16,7 @@ main .contact-form {
   margin: 0 auto;
   background-color: #FEEFDD;
   font-size: 20px;
+  padding: 2% 0;
 }
 
 main .radio-button {
@@ -39,13 +41,15 @@ main .required {
 }
 
 main .inquiry-form {
+  width: 90%;
+  margin: 2% auto;
   display: flex;
   gap: 20%;
 }
 
 main .radio-form-list {
   display: flex;
-  gap: 10%;
+  gap: 5%;
   width: 50%;
 }
 
@@ -58,7 +62,7 @@ main .radio-form {
 
 main .name-form, main .phone-form, main .email-form, main .inquiry-content-form {
   width: 90%;
-  margin: 2% auto;
+  margin: 4% auto;
   display: flex;
   gap: 20%;
 }
@@ -76,4 +80,23 @@ main .name-input, main .phone-input, main .email-input {
 main .inquiry-content-input {
   height: 100px;
   width: 60%;
+  resize: vertical;
+}
+
+
+main .submit-button {
+  display: block;
+  margin: 3% auto;
+  border-radius: 16px;
+  background-color: #00A24F;
+  color: #FCFCFC;
+  font-size: 20px;
+  padding: 1% 8%;
+  border: none;
+}
+
+main .submit-button:hover {
+  background-color: #FCFCFC;
+  color: #00A24F;
+  border: 2px solid #00A24F;
 }
