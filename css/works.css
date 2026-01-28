@@ -279,4 +279,51 @@ main .contact-button:hover {
   .sub-title {
     font-size: 28px;
   }
+
+  /* ご相談の流れ */
+  .contact-flow {
+    width: 95%;
+  }
+
+  .flow-title1 {
+    font-size: 28px;
+  }
+
+  .flow-title2 {
+    font-size: 24px;
+  }
+
+  .step1 {
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .step-text {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .step-text h2 {
+    font-size: 24px;
+  }
+
+  .phone {
+    height: 120px;
+    margin: 10px 0;
+  }
+
+  .arrow img {
+    width: 60px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+    padding: 3%;
+  }
+
+  main .contact-button {
+    width: 60%;
+    font-size: 18px;
+  }
 }
