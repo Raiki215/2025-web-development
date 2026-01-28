@@ -5,10 +5,14 @@
   font-family: "Noto Sans JP";
 }
 
+html,
 body {
   background-color: #fff7ee;
   color: #434343;
   font-weight: nomal;
+  min-width: 375px;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 h1 {
@@ -67,6 +71,90 @@ header .global-nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* ハンバーガーメニューボタン */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+  position: relative;
+}
+
+.hamburger .menu-icon,
+.hamburger .close-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  transition: opacity 0.3s ease;
+}
+
+.hamburger .menu-icon {
+  display: block;
+}
+
+.hamburger .close-icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hamburger.active .menu-icon {
+  display: none;
+}
+
+.hamburger.active .close-icon {
+  display: block;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+
+  header .global-nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background-color: #00a24f;
+    transition: top 0.4s ease;
+    z-index: 1000;
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  header .global-nav.active {
+    top: 0;
+  }
+
+  header .global-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .global-nav ul li {
+    margin: 20px 0;
+  }
+
+  header .global-nav ul li a {
+    font-size: 24px;
+  }
+
+  header .title-text a {
+    font-size: 24px;
+  }
+
+  header img {
+    height: 40px;
+  }
+}
+
 /* main */
 
 /*施工事例のスライド*/
@@ -85,9 +173,10 @@ main .swiper-slide {
 main .card {
   display: block;
   text-decoration: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
-
 
 main .card:hover {
   transform: translateY(-5px);
@@ -103,13 +192,14 @@ main .trouble-img {
   margin: 0;
 }
 
-main .swiper-button-prev, main .swiper-button-next {
+main .swiper-button-prev,
+main .swiper-button-next {
   color: #434343;
 }
 
 main .trouble-text {
   font-size: 20px;
-  color: #FFF7EE;
+  color: #fff7ee;
   background-color: #00a24f;
   text-align: center;
   width: 100%;
@@ -117,10 +207,9 @@ main .trouble-text {
   padding: 2% 0;
 }
 
-
 /* 電話番号 */
 main .alert-text {
-  color: #EE1C1C;
+  color: #ee1c1c;
   font-size: 40px;
 }
 
@@ -133,7 +222,7 @@ main .invitation-text {
 main .call-center {
   width: 80%;
   margin: 0 auto;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   border: 10px solid #00a24f;
 }
 
@@ -174,7 +263,6 @@ main .company-name {
   text-align: right;
   margin: 0 2% 2% 0;
 }
-
 
 /* footer */
 footer {
