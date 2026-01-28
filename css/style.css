@@ -197,42 +197,66 @@ footer .footer-info {
 footer .call-fax-display {
   display: flex;
   justify-content: space-between;
+  gap: 3%;
 }
 
 footer .call-display,
-.fax-display,
-.download-button {
+footer .fax-display {
   background-color: #fff7ee;
-  width: 45%;
+  flex: 1;
   border-radius: 50px;
   display: flex;
-  justify-content: space-around;
-  flex-basis: auto;
+  align-items: center;
+  padding: 2% 4%;
+  gap: 15px;
+  margin: 3% 0;
+  box-shadow: 0px 4px 0px 0px #008742;
+}
+
+footer .download-button {
+  background-color: #fff7ee;
+  width: 48%;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 2% 4%;
+  gap: 15px;
   margin: 3% 0;
   box-shadow: 0px 4px 0px 0px #008742;
 }
 
 footer .tel-icon,
-.fax-icon,
-.download-icon {
+footer .fax-icon,
+footer .download-icon {
   object-fit: cover;
   height: 50px;
   width: auto;
-  margin: auto 0;
+  flex-shrink: 0;
+}
+
+footer .tel-text,
+footer .fax-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+  flex: 1;
 }
 
 footer .tel-number,
-.fax-number {
+footer .fax-number {
   font-size: 36px;
   color: #434343;
   font-weight: normal;
+  white-space: nowrap;
 }
 
 footer .tel-hours,
-.fax-hours {
-  font-size: 20px;
+footer .fax-hours {
+  font-size: 18px;
   color: #434343;
   font-weight: normal;
+  white-space: nowrap;
 }
 
 footer .download-text {
@@ -259,6 +283,85 @@ footer .page-link a:hover {
 footer .download-button:hover {
   transform: translateY(4px);
   box-shadow: none;
+}
+
+/* レスポンシブデザイン - フッター */
+@media (max-width: 1210px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 5%;
+  }
+
+  footer .footer-info {
+    width: 90%;
+  }
+
+  footer .call-fax-display {
+    width: 100%;
+  }
+
+  footer .download-button {
+    width: 100%;
+  }
+
+  footer .map {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 353 / 293;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px 0 0 0;
+    padding: 5% 3%;
+  }
+
+  footer .footer-info {
+    width: 90%;
+    margin: 0 0 5% 0;
+  }
+
+  footer .call-display,
+  footer .fax-display,
+  footer .download-button {
+    width: 100%;
+    padding: 3% 5%;
+    gap: 10px;
+  }
+
+  footer .tel-number,
+  footer .fax-number {
+    font-size: 28px;
+  }
+
+  footer .tel-hours,
+  footer .fax-hours {
+    font-size: 16px;
+  }
+
+  footer .download-text {
+    font-size: 20px;
+  }
+
+  footer .page-link {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  footer .page-link a {
+    padding: 2% 0;
+  }
+
+  footer .map {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto 5%;
+  }
 }
 
 /* SweetAlert2カスタムスタイル */
