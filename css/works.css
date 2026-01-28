@@ -70,6 +70,7 @@ main h1 {
   width: 259px;
   height: auto;
   object-fit: cover;
+  display: block;
 }
 
 .img-container {
@@ -77,10 +78,16 @@ main h1 {
   border-radius: 2px;
 }
 
+.img-container div {
+  width: 259px;
+}
+
 .img-container div p {
   background-color: #fcfcfc;
   font-size: 36px;
   text-align: center;
+  margin: 0;
+  padding: 5px 0;
 }
 
 .after {
@@ -213,4 +220,63 @@ main .contact-button {
 main .contact-button:hover {
   background-color: #00a24f;
   color: #fff7ee;
+}
+
+/* レスポンシブ対応 - サブナビゲーション */
+@media screen and (max-width: 768px) {
+  .sub-nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sub-nav ul li {
+    width: 100%;
+  }
+
+  .sub-nav ul li a {
+    font-size: 24px;
+  }
+
+  /* before/afterセクション */
+  section {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .img-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .img-container div {
+    width: 100%;
+  }
+
+  .work-img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .img-container div p {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+
+  .work-info {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .work-info li {
+    font-size: 18px;
+  }
+
+  .work-contents {
+    width: 95%;
+  }
+
+  .sub-title {
+    font-size: 28px;
+  }
 }
