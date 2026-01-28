@@ -413,6 +413,11 @@ footer .download-button:hover {
     margin: 0 0 5% 0;
   }
 
+  footer .call-fax-display {
+    flex-direction: column;
+    width: 100%;
+  }
+
   footer .call-display,
   footer .fax-display,
   footer .download-button {
