@@ -206,3 +206,35 @@ main .recruit-button:hover {
   background-color: #00a24f;
   color: #FFF7EE;
 }
+
+/* レスポンシブ対応 */
+@media (max-width: 1200px) {
+  main .trouble-title {
+    font-size: 32px;
+  }
+  
+  main .contact-button {
+    width: 40%;
+  }
+}
+
+@media (max-width: 800px) {
+  main .trouble-title {
+    font-size: 28px;
+  }
+  
+  main .contact-button {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  main .trouble-title {
+    font-size: 24px;
+  }
+  
+  main .contact-button {
+    width: 80%;
+    padding: 3% 2%;
+  }
+}
