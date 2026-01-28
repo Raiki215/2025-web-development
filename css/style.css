@@ -260,3 +260,18 @@ footer .download-button:hover {
   transform: translateY(4px);
   box-shadow: none;
 }
+
+/* SweetAlert2カスタムスタイル */
+.swal-text-large {
+  font-size: 24px;
+}
+
+.swal2-actions {
+  width: 80%;
+}
+
+.swal-button-wide {
+  width: 40%;
+  padding: 2% 5%;
+  margin: 0 2%;
+}
