@@ -240,6 +240,26 @@ main .recruit-button:hover {
   main .call-number {
     font-size: 36px;
   }
+  
+  main .recruit-title {
+    font-size: 32px;
+  }
+  
+  main .recruit-content {
+    width: 90%;
+  }
+  
+  main .recruit-img {
+    height: 250px;
+  }
+  
+  main .recruit-subtitle {
+    font-size: 32px;
+  }
+  
+  main .recruit-button {
+    width: 60%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -305,6 +325,31 @@ main .recruit-button:hover {
   main .phone-icon {
     width: 50px;
     height: 50px;
+  }
+  
+  main .recruit-title {
+    font-size: 28px;
+  }
+  
+  main .recruit-content {
+    width: 90%;
+    padding: 3%;
+  }
+  
+  main .recruit-img {
+    height: 220px;
+  }
+  
+  main .recruit-subtitle {
+    font-size: 28px;
+  }
+  
+  main .recruit-text p {
+    font-size: 16px;
+  }
+  
+  main .recruit-button {
+    width: 65%;
   }
 }
 
@@ -405,5 +450,43 @@ main .recruit-button:hover {
   
   main .company-name {
     font-size: 14px;
+  }
+  
+  main .recruit-title {
+    font-size: 24px;
+  }
+  
+  main .recruit-content {
+    flex-direction: column;
+    width: 95%;
+    padding: 4%;
+    border-width: 5px;
+  }
+  
+  main .recruit-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+  
+  main .recruit-text {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  main .recruit-subtitle {
+    font-size: 24px;
+    margin-bottom: 8%;
+  }
+  
+  main .recruit-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  main .recruit-button {
+    width: 60%;
+    padding: 3% 2%;
+    margin-top: 20px;
   }
 }
