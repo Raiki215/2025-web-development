@@ -14,7 +14,7 @@ main .form-title {
 main .contact-form {
   width: 80%;
   margin: 0 auto;
-  background-color: #FEEFDD;
+  background-color: #feefdd;
   font-size: 20px;
   padding: 2% 0;
 }
@@ -25,18 +25,20 @@ main .radio-button {
   block-size: 30px;
 }
 
-main input::placeholder, main textarea::placeholder {
-  color: #A3D29E;
+main input::placeholder,
+main textarea::placeholder {
+  color: #a3d29e;
   font-size: 20px;
 }
 
-main input[type="text"], main input[type="email"], main textarea {
+main input[type="text"],
+main input[type="email"],
+main textarea {
   border: none;
 }
 
-
 main .required {
-  color: #FF573C;
+  color: #ff573c;
   font-size: 12px;
 }
 
@@ -60,19 +62,28 @@ main .radio-form {
   width: 70%;
 }
 
-main .name-form, main .phone-form, main .email-form, main .inquiry-content-form {
+main .name-form,
+main .phone-form,
+main .email-form,
+main .inquiry-content-form {
   width: 90%;
   margin: 4% auto;
   display: flex;
   gap: 20%;
 }
 
-main .inquiry-type-label, main .name-label, main .phone-label, main .email-label, main .inquiry-content-label {
+main .inquiry-type-label,
+main .name-label,
+main .phone-label,
+main .email-label,
+main .inquiry-content-label {
   width: 25%;
   margin: auto 0;
 }
 
-main .name-input, main .phone-input, main .email-input {
+main .name-input,
+main .phone-input,
+main .email-input {
   width: 60%;
   height: 50px;
 }
@@ -83,20 +94,95 @@ main .inquiry-content-input {
   resize: vertical;
 }
 
-
 main .submit-button {
   display: block;
   margin: 3% auto;
   border-radius: 16px;
-  background-color: #00A24F;
-  color: #FCFCFC;
+  background-color: #00a24f;
+  color: #fcfcfc;
   font-size: 20px;
   padding: 1% 8%;
   border: none;
 }
 
 main .submit-button:hover {
-  background-color: #FCFCFC;
-  color: #00A24F;
-  border: 2px solid #00A24F;
+  background-color: #fcfcfc;
+  color: #00a24f;
+  border: 2px solid #00a24f;
+}
+/* ���X�|���V�u�Ή� */
+@media screen and (max-width: 768px) {
+  main .contact-title {
+    font-size: 28px;
+  }
+
+  main .form-title {
+    font-size: 24px;
+  }
+
+  main .contact-form {
+    width: 95%;
+    font-size: 16px;
+    padding: 5% 0;
+  }
+
+  main .inquiry-form,
+  main .name-form,
+  main .phone-form,
+  main .email-form,
+  main .inquiry-content-form {
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+  }
+
+  main .inquiry-type-label,
+  main .name-label,
+  main .phone-label,
+  main .email-label,
+  main .inquiry-content-label {
+    width: 100%;
+    margin: 0;
+  }
+
+  main .radio-form-list {
+    width: 100%;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  main .radio-form {
+    width: auto;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  main .radio-button {
+    inline-size: 20px;
+    block-size: 20px;
+  }
+
+  main .name-input,
+  main .phone-input,
+  main .email-input,
+  main .inquiry-content-input {
+    width: 100%;
+  }
+
+  main .inquiry-content-input {
+    height: 150px;
+  }
+
+  main input::placeholder,
+  main textarea::placeholder {
+    font-size: 16px;
+  }
+
+  main .submit-button {
+    font-size: 18px;
+    padding: 3% 10%;
+    width: 80%;
+  }
 }
