@@ -24,6 +24,47 @@ p {
   font-size: 20px;
 }
 
+/* フローティングボタン */
+.floating-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #00a24f;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  min-width: 180px;
+}
+
+.floating-button-title {
+  color: #fff7ee;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.floating-button-number {
+  color: #fff7ee;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 4px 0 0 0;
+  white-space: nowrap;
+}
+
+.floating-button:hover {
+  background-color: #008742;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
 /* header */
 header {
   display: flex;
@@ -154,6 +195,21 @@ header .global-nav ul li a:hover {
 
   header img {
     height: 40px;
+  }
+  
+  .floating-button {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    min-width: 150px;
+  }
+  
+  .floating-button-title {
+    font-size: 16px;
+  }
+  
+  .floating-button-number {
+    font-size: 14px;
   }
 }
 
