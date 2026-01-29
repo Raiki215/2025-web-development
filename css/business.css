@@ -103,3 +103,79 @@ main .contact-button:hover {
   background-color: #00a24f;
   color: #FFF7EE;
 }
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  /* 事業内容セクション */
+  main .business-section .business-title {
+    font-size: 28px;
+  }
+
+  .business-content {
+    flex-direction: column;
+    width: 95%;
+    gap: 20px;
+  }
+
+  main .business-section .water-business,
+  main .business-section .public-work-business {
+    width: 100%;
+  }
+
+  main .business-section .business-img {
+    width: 90%;
+  }
+
+  main .business-section .business-text {
+    width: 90%;
+  }
+
+  main .business-section .business-subtitle {
+    font-size: 24px;
+    margin: 4% 0;
+  }
+
+  main .business-section .business-description {
+    font-size: 16px;
+    margin: 5% 0;
+  }
+
+  /* 私たちが選ばれる理由セクション */
+  main .strengths-section .strengths-title {
+    font-size: 28px;
+  }
+
+  main .strengths-section .strengths-content {
+    width: 95%;
+  }
+
+  main .strengths-section .strengths-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .strengths-section .strengths-img {
+    width: 60%;
+    margin: 3% 0;
+  }
+
+  main .strengths-section .strengths-text-content {
+    width: 90%;
+    text-align: center;
+  }
+
+  main .strengths-section .strengths-subtitle {
+    font-size: 24px;
+  }
+
+  main .strengths-section .strengths-text {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  /* お問い合わせボタン */
+  main .contact-button {
+    width: 60%;
+    font-size: 18px;
+    padding: 3% 5%;
+  }
+}
