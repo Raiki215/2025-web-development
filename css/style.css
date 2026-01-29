@@ -370,6 +370,13 @@ footer .page-link a:hover {
   text-decoration: underline;
 }
 
+footer .call-display:hover,
+footer .fax-display:hover {
+  transform: translateY(4px);
+  box-shadow: none;
+  cursor: pointer;
+}
+
 footer .download-button:hover {
   transform: translateY(4px);
   box-shadow: none;
@@ -399,6 +406,18 @@ footer .download-button:hover {
     width: 90%;
     height: auto;
     aspect-ratio: 353 / 293;
+  }
+  
+  main .invitation-text {
+    font-size: 28px;
+  }
+  
+  main .call-center {
+    width: 90%;
+  }
+  
+  main .call-number {
+    font-size: 36px;
   }
 }
 
@@ -456,6 +475,70 @@ footer .download-button:hover {
     width: 90%;
     height: 250px;
     margin: 0 auto 5%;
+  }
+  
+  main .invitation-text {
+    font-size: 24px;
+  }
+  
+  main .alert-text {
+    font-size: 28px;
+  }
+  
+  main .call-center {
+    width: 95%;
+    padding: 4% 2%;
+  }
+  
+  main .call-title {
+    font-size: 16px;
+  }
+  
+  main .call-number {
+    font-size: 32px;
+  }
+  
+  main .phone-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  main .invitation-text {
+    font-size: 20px;
+    padding: 0 4%;
+  }
+  
+  main .alert-text {
+    font-size: 24px;
+  }
+  
+  main .call-center {
+    width: 90%;
+    padding: 6% 2%;
+  }
+  
+  main .call-title {
+    font-size: 14px;
+    margin-bottom: 4%;
+  }
+  
+  main .call-number {
+    font-size: 28px;
+  }
+  
+  main .phone-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  main .business-hours {
+    font-size: 14px;
+  }
+  
+  main .company-name {
+    font-size: 14px;
   }
 }
 
