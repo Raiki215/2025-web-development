@@ -270,6 +270,17 @@ main .recruit-button:hover {
     font-size: 24px;
   }
   
+  main .business-text-area {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main .business-button {
+    width: 60%;
+    float: none;
+    margin: auto auto 0 0;
+  }
+  
   main .invitation-text {
     font-size: 24px;
   }
@@ -321,6 +332,43 @@ main .recruit-button:hover {
   
   main .strengths-text {
     font-size: 14px;
+  }
+  
+  main .business-title {
+    font-size: 24px;
+  }
+  
+  main .business-content {
+    width: 95%;
+  }
+  
+  main .tab-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  main .business-images {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  main .business-images img {
+    height: 180px;
+  }
+  
+  main .public-works-title, main .water-title {
+    font-size: 24px;
+  }
+  
+  main .description-text {
+    font-size: 14px;
+  }
+  
+  main .business-button {
+    width: 80%;
+    padding: 3% 2%;
+    float: none;
+    margin: 4% auto;
   }
   
   main .invitation-text {
